@@ -1,4 +1,5 @@
-FROM node:18.12.1-bullseye-slim
+
+FROM node:24.10.0-trixie-slim
 
 # Set the working directory in the container
 WORKDIR /app
